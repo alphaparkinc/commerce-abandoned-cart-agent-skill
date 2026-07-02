@@ -1,3 +1,3 @@
-﻿# commerce-abandoned-cart-agent-skill
+# commerce-abandoned-cart-agent-skill
 
-Ready to use SDK library for commerce-abandoned-cart-agent-skill.
+Production-ready agent skill for Abandoned cart recovery.

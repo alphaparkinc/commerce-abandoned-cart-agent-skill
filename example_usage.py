@@ -1,10 +1,7 @@
-﻿import sys
-from client import Client
+from client import AbandonedCartRecoveryClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
+    c = AbandonedCartRecoveryClient()
+    res = c.process_recovery("user@test.com", [{"price": 100, "quantity": 2}], 25)
     print(res)
 if __name__ == '__main__':
     main()
