@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "commerce-abandoned-cart-agent-skill",
+  "name": "genpark-commerce-abandoned-cart-agent-skill",
   "outputs": {
     "result_val": {
       "type": "string"
